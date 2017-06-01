@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Yli_SeasLog>
+            <version>0.1.0</version>
+        </Yli_SeasLog>
+    </modules>
+    <global>
+    	<helpers>
+  			<seasLog>
+  				<class>Yli_SeasLog_Helper</class>
+  			</seasLog>
+      </helpers>
+      <log>
+          <core>
+              <writer_model>Yli_SeasLog_Model_Logwriter</writer_model>
+          </core>
+      </log>
+    </global>
+</config>
